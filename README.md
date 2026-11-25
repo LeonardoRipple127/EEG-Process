@@ -12,8 +12,8 @@
 | `detectAndInterpolateBadChannels.m` | 检测坏导候选，由用户输入通道名称后进行球面插值 |
 | `removeArtifactsOutsideTrials.m` | 检测幅值异常，仅删除事件 3–4 保护区间以外的异常片段 |
 | `getEventTypeStrings.m` | 将数字和字符事件类型统一为字符串 |
-| `plotInteractiveICReview.m` | 可点击的全部 ICA 成分拓扑图及 ICLabel 分类提示；当前主流程未调用 |
-| `readPreprocessedEEG.m` | 原有波形浏览脚本；当前版本的 MAT 读取方式需调整，见下文 |
+| `plotInteractiveICReview.m` | 可点击的全部 ICA 成分拓扑图及 ICLabel 分类提示 |
+| `readPreprocessedEEG.m` | 原有波形浏览脚本 |
 | `RereferenceEEG.m` | 独立后处理脚本：读取已有 ICA SET 数据，剔除指定成分、平均参考，并生成 ERP 分段数据 |
 
 ## 依赖
