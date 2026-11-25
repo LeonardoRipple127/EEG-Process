@@ -1,0 +1,27 @@
+# Excluded source folder
+/pre/
+
+# EEG recordings and generated results
+*.set
+*.fdt
+*.mat
+*.cnt
+*.cdt
+*.edf
+*.bdf
+*.gdf
+*.fig
+*.png
+/Preprocessed_Final/
+/ICA_results/
+/EEG_Cleaned/
+
+# MATLAB and editor temporary files
+*.asv
+*.m~
+*.mex*
+slprj/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
